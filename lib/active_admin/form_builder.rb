@@ -1,7 +1,7 @@
 require 'formtastic'
 
 module ActiveAdmin
-  class FormBuilder < ::Formtastic::SemanticFormBuilder
+  class FormBuilder < ::Formtastic::FormBuilder
 
     attr_reader :form_buffers
 
